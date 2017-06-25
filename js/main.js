@@ -1,7 +1,7 @@
 'use strict';
 
 
-/* pobieranie danych ze strony przy pomocy AJAX i wyświetlenie ich na własnej stronie w odpowiedniej formie */
+/* pobieranie danych ze strony przy pomocy AJAX i wyświetlenie ich na własnej stronie w odpowiedniej formie po zescrollowaniu na koniec strony (INFINITE SCROLL) */
 $(function () {
 
     $(window).scroll(function () {
